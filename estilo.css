@@ -1,6 +1,7 @@
 .uri{
 	text-decoration: none;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: green;
 }
 h1{
 	font-family: 'Times New Roman', Times, serif;
@@ -8,12 +9,12 @@ h1{
 p{
 	font-family: 'Courier New', Courier, monospace;
 }
-a.uri{
-	font-family: 'Courier New', Courier, monospace;
-	color: red;
-}
+
 /*body{
 	background-image: url(imagens/frio.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 200%;
 }*/
+body{
+	background-color:peru;
+}
