@@ -5,11 +5,15 @@
 }
 h1{
 	font-family: 'Times New Roman', Times, serif;
+	padding: 1% 2% 1% 17%;
 }
 p{
 	font-family: 'Courier New', Courier, monospace;
+	padding: 0%  1%;
 }
-
+p a{
+	padding: 2% ;
+}
 /*body{
 	background-image: url(imagens/frio.jpg);
 	background-repeat: no-repeat;
@@ -17,4 +21,13 @@ p{
 }*/
 body{
 	background-color:peru;
+}
+#div1{
+	width: 60%;
+	margin: auto;
+	background-color: lightgrey;
+}
+/*não funciona*/
+footer{
+	margin: 27% 90% 1% 1%;
 }
