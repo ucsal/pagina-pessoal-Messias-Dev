@@ -11,8 +11,8 @@ p{
 	font-family: 'Courier New', Courier, monospace;
 	padding: 0%  1%;
 }
-p a{
-	padding: 2% ;
+#listas_e_imagem{
+	padding-left: 80% ;
 }
 /*body{
 	background-image: url(imagens/frio.jpg);
@@ -28,6 +28,11 @@ body{
 	background-color: lightgrey;
 }
 /*não funciona*/
-footer{
+#footer_index{
 	margin: 27% 90% 1% 1%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#footer_listas{
+	margin: 6% 90% 1% 1%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
