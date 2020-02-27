@@ -1,46 +1,97 @@
-.uri{
-	text-decoration: none;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: green;
+.uri {
+    /*text-decoration: none;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
 }
-h1{
-	font-family: 'Times New Roman', Times, serif;
-	padding: 1% 2% 1% 17%;
+
+h1 {
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    padding: 0.5em 2em 0.5em 3em;
 }
-p{
-	font-family: 'Courier New', Courier, monospace;
-	padding: 0%  1%;
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 4em;
 }
-#listas_e_imagem{
-	padding-left: 70% ;
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 2em;
 }
-/*body{
-	background-image: url(imagens/frio.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 200%;
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0% 1%;
+}
+
+hr {
+    color: rgb(241, 167, 28);
+    border: 2px solid;
+}
+
+body {
+    background-image: url(imagens/wood_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+}
+
+body ul {
+    padding: 50% 50%;
+}
+p a{
+    padding-left: 42em;
+}
+section img{
+    padding-left: 5em;
+}
+
+/*body {
+    background-color: rgb(73, 153, 93);
 }*/
-body{
-	background-color:rgb(73, 153, 93);
+
+#decription_index {
+    width: 50%;
+    margin: auto;
+    
 }
-#div1{
-	width: 60%;
-	margin: auto;
-	background-color: lightgrey;
+
+#listas_e_imagem {
+    padding-left: 70%;
 }
-#div1Gerador{
-	width: 40%;
-	margin: auto;	
+
+#div1 {
+    width: 60%;
+    margin: auto;
+    background-color: rgb(235, 233, 225);
+    border-radius: 1em;
 }
-/*não funciona*/
-#footer_index{
-	margin: 27% 90% 1% 1%;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#div_header{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(235, 233, 225);
+    border-radius: 1em;
 }
-#footer_listas{
-	margin: 6% 90% 1% 1%;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+#div1Gerador {
+    width: 40%;
+    margin: auto;
 }
-#footer_gerador{
-	margin: 45% 90% 1% 1%;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+#footer_index {
+    margin: 27% 90% 1% 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#footer_listas {
+    margin: 6% 90% 1% 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#footer_gerador {
+    margin: 5% 90% 1% 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
