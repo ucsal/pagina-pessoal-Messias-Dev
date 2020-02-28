@@ -3,6 +3,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: green;
 }
+.body_imagens{
+    width: 75%;
+    margin: auto;
+    background-color: rgb(235, 233, 225);
+    border-radius: 1em;
+}
+
+.body_imagens img{
+   padding-left: 6em;
+}
 
 h1 {
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
@@ -39,9 +49,6 @@ body {
     background-size: 200% 100%;
 }
 
-body ul {
-    padding: 50% 50%;
-}
 p a{
     padding-left: 42em;
 }
@@ -53,9 +60,8 @@ section img{
     background-color: rgb(73, 153, 93);
 }*/
 
-#decription_index {
-    width: 50%;
-    margin: auto;
+#decription_index p{
+    padding: 0.5em 2em 0.5em 3em;
     
 }
 
@@ -63,7 +69,7 @@ section img{
     padding-left: 70%;
 }
 
-#div1 {
+#div_body {
     width: 60%;
     margin: auto;
     background-color: rgb(235, 233, 225);
